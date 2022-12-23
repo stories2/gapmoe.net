@@ -1,6 +1,7 @@
 <script lang="ts">
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
+  import CropImageCanvas from './lib/CropImageCanvas.svelte';
 </script>
 
 <main>
@@ -15,7 +16,8 @@
   <h1>Vite + Svelte</h1>
 
   <div class="card">
-    <Counter />
+    <!-- <Counter /> -->
+    <CropImageCanvas></CropImageCanvas>
   </div>
 
   <p>
