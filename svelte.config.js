@@ -1,7 +1,16 @@
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte'
+import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 
 export default {
   // Consult https://svelte.dev/docs#compile-time-svelte-preprocess
   // for more information about preprocessors
   preprocess: vitePreprocess(),
-}
+};
+
+// const sveltePreprocess = require("svelte-preprocess");
+
+// module.exports = {
+//   preprocess: sveltePreprocess({
+//     // ...
+//     // https://github.com/sveltejs/svelte-preprocess/blob/master/docs/preprocessing.md#typescript
+//   }),
+// };
